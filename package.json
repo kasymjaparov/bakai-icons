@@ -1,25 +1,33 @@
 {
   "name": "@kasymjaparov/bakai-icons",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "description": "A collection of SVG icons",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm && npm run build:types",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "build:esm": "tsc --module esnext --outDir dist/esm",
+    "build:types": "tsc --declaration --emitDeclarationOnly --outDir dist",
+    "prepare": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["icons", "svg", "react"],
+  "author": "Kasymjaparov Adilet",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "description": "A collection of SVG icons",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
-  },
-  "keywords": ["icons", "svg", "react"],
-  "author": "Your Name",
-  "license": "MIT",
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
-    "typescript": "^4.0.0",
+    "typescript": "^4.9.0",
     "react": "^18.0.0"
   }
 }
