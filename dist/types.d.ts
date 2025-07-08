@@ -33,5 +33,8 @@ export declare const ICON_TYPES: {
     readonly arrowRight: "arrowRight";
     readonly extraServices: "extraServices";
     readonly clock: "clock";
+    readonly tagUser: "tagUser";
+    readonly lock: "lock";
+    readonly likeShape: "likeShape";
 };
 export type TIconType = keyof typeof ICON_TYPES;
