@@ -1,7 +1,7 @@
 {
   "name": "@kasymjaparov/bakai-icons",
-  "version": "0.0.4",
-  "description": "Lightweight component with Bakai Bank's icons",
+  "version": "0.0.5",
+  "description": "Легкая коллекция SVG иконок для React приложений экосистемы 'Бакай банк'",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

@@ -33,5 +33,8 @@ export const ICON_TYPES = {
     arrowRight: "arrowRight",
     extraServices: "extraServices",
     clock: "clock",
+    tagUser: "tagUser",
+    lock: "lock",
+    likeShape: "likeShape",
 } as const
 export type TIconType = keyof typeof ICON_TYPES;
