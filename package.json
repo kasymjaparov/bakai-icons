@@ -1,12 +1,12 @@
 {
   "name": "@kasymjaparov/bakai-icons",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Легкая коллекция SVG иконок для React приложений экосистемы 'Бакай банк'",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "rollup": "rollup -c --bundleConfigAsCjs",
+    "build": "rollup -c --bundleConfigAsCjs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint \"src/**/*.{ts,tsx,js,jsx}\" --max-warnings=0"
   },
