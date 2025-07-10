@@ -333,11 +333,10 @@ export const IconProvider = () => {
                     d="M7.50024 9L6.50024 9C4.56725 9 3.00024 10.567 3.00024 12.5L3.00024 17.5C3.00024 19.433 4.56725 21 6.50024 21L17.5002 21C19.4332 21 21.0002 19.433 21.0002 17.5L21.0002 12.5C21.0002 10.567 19.4332 9 17.5002 9L16.5002 9"
                     stroke="white" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
-
-            <symbol id={ICON_TYPES.check} viewBox="0 0 12 12" fill="none">
-                <path d="M1.66675 5.99992L5.83341 10.1666L14.1667 1.83325" stroke="currentColor" strokeWidth="2"
-                      strokeLinecap="round" strokeLinejoin="round"/>
-            </symbol>
+            <svg id={ICON_TYPES.check} viewBox="0 0 20 21" fill="none">
+                <path d="M4.16699 10.5L8.33366 14.6667L16.667 6.33337" stroke="currentColor" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
             <symbol id={ICON_TYPES.retry} width="25" height="24" viewBox="0 0 25 24" fill="none">
                 <path fillRule="evenodd" clipRule="evenodd"
                       d="M14.2072 2.29297C13.4654 3.03474 13.4281 4.21421 14.0953 5H10.5C6.63401 5 3.5 8.13401 3.5 12C3.5 13.6783 4.09065 15.2187 5.07542 16.4246L6.49979 15.0002C5.87201 14.1645 5.5 13.1257 5.5 12C5.5 9.23858 7.73858 7 10.5 7H14.0954C13.4281 7.78579 13.4654 8.96537 14.2072 9.70718L17.9143 6.00008L14.2072 2.29297ZM10.9047 17C11.5719 16.2142 11.5346 15.0347 10.7928 14.293L7.08571 18.0001L10.7928 21.7072C11.5346 20.9654 11.5719 19.7858 10.9046 19H14.5C18.366 19 21.5 15.866 21.5 12C21.5 10.2342 20.8461 8.62103 19.7673 7.38952L18.3488 8.80809C19.0677 9.67404 19.5 10.7865 19.5 12C19.5 14.7614 17.2614 17 14.5 17H10.9047Z"

@@ -36,5 +36,8 @@ export declare const ICON_TYPES: {
     readonly tagUser: "tagUser";
     readonly lock: "lock";
     readonly likeShape: "likeShape";
+    readonly plus: "plus";
+    readonly retry_v2: "retry_v2";
+    readonly infinite: "infinite";
 };
 export type TIconType = keyof typeof ICON_TYPES;

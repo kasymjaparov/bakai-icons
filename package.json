@@ -1,6 +1,6 @@
 {
   "name": "@kasymjaparov/bakai-icons",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Легкая коллекция SVG иконок для React приложений экосистемы 'Бакай банк'",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
