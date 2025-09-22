@@ -42,5 +42,7 @@ export const ICON_TYPES = {
     toast_success: "toast_success",
     toast_warning: "toast_warning",
     plane: "plane",
+    car: "car",
+    airplane: "airplane"
 } as const
 export type TIconType = keyof typeof ICON_TYPES;
