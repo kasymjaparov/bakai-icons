@@ -39,5 +39,8 @@ export const ICON_TYPES = {
     plus: "plus",
     retry_v2: "retry_v2",
     infinite: "infinite",
+    toast_success: "toast_success",
+    toast_warning: "toast_warning",
+    plane: "plane",
 } as const
 export type TIconType = keyof typeof ICON_TYPES;
