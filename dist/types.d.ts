@@ -11,6 +11,7 @@ export declare const ICON_TYPES: {
     readonly wallet: "wallet";
     readonly sms: "sms";
     readonly collapsedArrow: "collapsedArrow";
+    readonly uncollapsedArrow: "uncollapsedArrow";
     readonly radioUnchecked: "radioUnchecked";
     readonly radioChecked: "radioChecked";
     readonly pdf: "pdf";
