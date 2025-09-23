@@ -42,6 +42,9 @@ export const ICON_TYPES = {
     infinite: "infinite",
     toast_success: "toast_success",
     toast_warning: "toast_warning",
+    toast_error: "toast_error",
+    toast_info: "toast-info",
+    blocked: "blocked",
     plane: "plane",
     car: "car",
     airplane: "airplane"
