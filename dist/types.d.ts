@@ -39,5 +39,10 @@ export declare const ICON_TYPES: {
     readonly plus: "plus";
     readonly retry_v2: "retry_v2";
     readonly infinite: "infinite";
+    readonly toast_success: "toast_success";
+    readonly toast_warning: "toast_warning";
+    readonly plane: "plane";
+    readonly car: "car";
+    readonly airplane: "airplane";
 };
 export type TIconType = keyof typeof ICON_TYPES;

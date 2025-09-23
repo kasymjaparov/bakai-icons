@@ -11,6 +11,7 @@ export const ICON_TYPES = {
     wallet: "wallet",
     sms: "sms",
     collapsedArrow: "collapsedArrow",
+    uncollapsedArrow: "uncollapsedArrow",
     radioUnchecked: "radioUnchecked",
     radioChecked: "radioChecked",
     pdf: "pdf",
