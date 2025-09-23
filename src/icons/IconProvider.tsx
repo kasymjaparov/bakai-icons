@@ -250,8 +250,8 @@ export const IconProvider = () => {
                       d="M15.5859 12.1547C14.9351 12.8056 13.8798 12.8056 13.2289 12.1547L9.99668 8.92251L6.76445 12.1547C6.11357 12.8056 5.0583 12.8056 4.40743 12.1547L9.99668 6.56549L15.5859 12.1547Z"
                       fill="currentColor"/>
             </symbol>
-            <symbol id={ICON_TYPES.uncollapsedArrow} viewBox="0 0 12 8" fill="none">
-                <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            <symbol id={ICON_TYPES.uncollapsedArrow} viewBox="0 0 20 21" fill="none">
+                <path d="M5 8L10 13L15 8" stroke="#D1D5DB" stroke-width="1.5" stroke-linecap="round"
                       stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.collapsedPlus} viewBox="0 0 16 16" fill="none">
@@ -473,9 +473,11 @@ export const IconProvider = () => {
             </symbol>
             <symbol id={ICON_TYPES.toast_warning} viewBox="0 0 24 24" fill="none">
                 <path d="M12 9V14" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M11.9999 21.4098H5.93993C2.46993 21.4098 1.01993 18.9298 2.69993 15.8998L5.81993 10.2798L8.75993 4.99979C10.5399 1.78979 13.4599 1.78979 15.2399 4.99979L18.1799 10.2898L21.2999 15.9098C22.9799 18.9398 21.5199 21.4198 18.0599 21.4198H11.9999V21.4098Z"
-                      stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M11.9946 17H12.0036" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path
+                    d="M11.9999 21.4098H5.93993C2.46993 21.4098 1.01993 18.9298 2.69993 15.8998L5.81993 10.2798L8.75993 4.99979C10.5399 1.78979 13.4599 1.78979 15.2399 4.99979L18.1799 10.2898L21.2999 15.9098C22.9799 18.9398 21.5199 21.4198 18.0599 21.4198H11.9999V21.4098Z"
+                    stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.9946 17H12.0036" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.car} viewBox="0 0 20 20" fill="none">
                 <path
