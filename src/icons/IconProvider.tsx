@@ -251,7 +251,7 @@ export const IconProvider = () => {
                       fill="currentColor"/>
             </symbol>
             <symbol id={ICON_TYPES.uncollapsedArrow} viewBox="0 0 20 21" fill="none">
-                <path d="M5 8L10 13L15 8" stroke="#D1D5DB" stroke-width="1.5" stroke-linecap="round"
+                <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
                       stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.collapsedPlus} viewBox="0 0 16 16" fill="none">
