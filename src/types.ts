@@ -48,6 +48,7 @@ export const ICON_TYPES = {
     plane: "plane",
     car: "car",
     airplane: "airplane",
-    delete: "delete"
+    delete: "delete",
+    warning: "warning",
 } as const
 export type TIconType = keyof typeof ICON_TYPES;

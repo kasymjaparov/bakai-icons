@@ -48,5 +48,6 @@ export declare const ICON_TYPES: {
     readonly plane: "plane";
     readonly car: "car";
     readonly airplane: "airplane";
+    readonly delete: "delete";
 };
 export type TIconType = keyof typeof ICON_TYPES;
