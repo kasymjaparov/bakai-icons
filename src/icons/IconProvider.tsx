@@ -4,9 +4,9 @@ import {ICON_TYPES} from "../types"
 export const IconProvider = () => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" style={{display: "none"}}>
-            <symbol id={ICON_TYPES.arrowLeft} viewBox="0 0 16 2" fill="none">
-                <path d="M15.0834 1H1.05835" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
-                      stroke-linecap="round" stroke-linejoin="round"/>
+            <symbol id={ICON_TYPES.arrowDown} viewBox="0 0 20 20" fill="none">
+                <path d="M7.97508 4.94165L2.91675 9.99998L7.97508 15.0583" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17.0834 10H3.05835" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.info} viewBox="0 0 16 16" fill="none">
                 <g opacity="0.7">
