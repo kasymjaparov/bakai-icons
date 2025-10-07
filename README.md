@@ -105,6 +105,8 @@ function App() {
 | `warning`           | Иконка warning                      |
 | `arrrowDown`        | Иконка стрелки вниз                 |
 | `money`             | Иконка деньги                       |
+| `car_new`           | Иконка машины                       |
+
 
 
 ## Справочник API
