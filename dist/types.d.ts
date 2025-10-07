@@ -42,8 +42,14 @@ export declare const ICON_TYPES: {
     readonly infinite: "infinite";
     readonly toast_success: "toast_success";
     readonly toast_warning: "toast_warning";
+    readonly toast_error: "toast_error";
+    readonly toast_info: "toast_info";
+    readonly blocked: "blocked";
     readonly plane: "plane";
     readonly car: "car";
     readonly airplane: "airplane";
+    readonly delete: "delete";
+    readonly warning: "warning";
+    readonly arrowDown: "arrowDown";
 };
 export type TIconType = keyof typeof ICON_TYPES;
