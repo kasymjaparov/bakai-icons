@@ -54,5 +54,9 @@ export declare const ICON_TYPES: {
     readonly money: "money";
     readonly car_new: "car_new";
     readonly call: "call";
+    readonly thunder: "thunder";
+    readonly thunder_circle: "thunder_circle";
+    readonly wifi_rectangle: "wifi_rectangle";
+    readonly sim_rectangle: "sim_rectangle";
 };
 export type TIconType = keyof typeof ICON_TYPES;

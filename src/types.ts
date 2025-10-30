@@ -57,6 +57,10 @@ export const ICON_TYPES = {
     thunder: "thunder",
     thunder_circle: "thunder_circle",
     wifi_rectangle: "wifi_rectangle",
-    sim_rectangle: "sim_rectangle"
+    sim_rectangle: "sim_rectangle",
+    wallet_filled: "wallet_filled",
+    sms_filled: "sms_filled",
+    call_filled: "call_filled",
+    web_filled: "web_filled"
 } as const
 export type TIconType = keyof typeof ICON_TYPES;
