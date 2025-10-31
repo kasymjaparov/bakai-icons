@@ -62,5 +62,8 @@ export declare const ICON_TYPES: {
     readonly sms_filled: "sms_filled";
     readonly call_filled: "call_filled";
     readonly web_filled: "web_filled";
+    readonly sms_out_filled: "sms_out_filled";
+    readonly other_calls_filled: "other_calls_filled";
+    readonly unlimited_calls_filled: "unlimited_calls_filled";
 };
 export type TIconType = keyof typeof ICON_TYPES;

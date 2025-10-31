@@ -113,6 +113,7 @@ function App() {
 | `sms_out_filled`         | Иконка смс на другие сети           |
 | `other_calls_filled`     | Иконка звонка на другие сети        |
 | `unlimited_calls_filled` | Иконка звонка внутри сети           |
+| `document`               | Иконка документа                    |
 
 ## Справочник API
 

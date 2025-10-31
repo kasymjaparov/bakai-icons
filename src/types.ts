@@ -64,6 +64,7 @@ export const ICON_TYPES = {
     web_filled: "web_filled",
     sms_out_filled: "sms_out_filled",
     other_calls_filled: "other_calls_filled",
-    unlimited_calls_filled: "unlimited_calls_filled"
+    unlimited_calls_filled: "unlimited_calls_filled",
+    document: "document"
 } as const
 export type TIconType = keyof typeof ICON_TYPES;
