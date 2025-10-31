@@ -61,6 +61,9 @@ export const ICON_TYPES = {
     wallet_filled: "wallet_filled",
     sms_filled: "sms_filled",
     call_filled: "call_filled",
-    web_filled: "web_filled"
+    web_filled: "web_filled",
+    sms_out_filled: "sms_out_filled",
+    other_calls_filled: "other_calls_filled",
+    unlimited_calls_filled: "unlimited_calls_filled"
 } as const
 export type TIconType = keyof typeof ICON_TYPES;

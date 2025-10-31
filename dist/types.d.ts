@@ -58,5 +58,9 @@ export declare const ICON_TYPES: {
     readonly thunder_circle: "thunder_circle";
     readonly wifi_rectangle: "wifi_rectangle";
     readonly sim_rectangle: "sim_rectangle";
+    readonly wallet_filled: "wallet_filled";
+    readonly sms_filled: "sms_filled";
+    readonly call_filled: "call_filled";
+    readonly web_filled: "web_filled";
 };
 export type TIconType = keyof typeof ICON_TYPES;
