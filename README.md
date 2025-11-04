@@ -114,6 +114,7 @@ function App() {
 | `other_calls_filled`     | Иконка звонка на другие сети        |
 | `unlimited_calls_filled` | Иконка звонка внутри сети           |
 | `document`               | Иконка документа                    |
+| `rollback`               | Иконка возврата                     |
 
 ## Справочник API
 
