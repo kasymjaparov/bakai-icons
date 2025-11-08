@@ -69,5 +69,7 @@ export const ICON_TYPES = {
     rollback: "rollback",
     sun: "sun",
     stars: "stars",
+    camera: "camera",
+    user_check: "user_check",
 } as const
 export type TIconType = keyof typeof ICON_TYPES;

@@ -67,5 +67,7 @@ export declare const ICON_TYPES: {
     readonly unlimited_calls_filled: "unlimited_calls_filled";
     readonly document: "document";
     readonly rollback: "rollback";
+    readonly sun: "sun";
+    readonly stars: "stars";
 };
 export type TIconType = keyof typeof ICON_TYPES;
