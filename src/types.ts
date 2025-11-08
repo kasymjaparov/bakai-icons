@@ -66,6 +66,8 @@ export const ICON_TYPES = {
     other_calls_filled: "other_calls_filled",
     unlimited_calls_filled: "unlimited_calls_filled",
     document: "document",
-    rollback: "rollback"
+    rollback: "rollback",
+    sun: "sun",
+    stars: "stars",
 } as const
 export type TIconType = keyof typeof ICON_TYPES;
