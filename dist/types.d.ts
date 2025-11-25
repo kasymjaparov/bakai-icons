@@ -69,5 +69,7 @@ export declare const ICON_TYPES: {
     readonly rollback: "rollback";
     readonly sun: "sun";
     readonly stars: "stars";
+    readonly camera: "camera";
+    readonly user_check: "user_check";
 };
 export type TIconType = keyof typeof ICON_TYPES;
