@@ -6,9 +6,9 @@ export const IconProvider = () => {
         <svg xmlns="http://www.w3.org/2000/svg" style={{display: "none"}}>
             <symbol id={ICON_TYPES.arrowLeft} viewBox="0 0 20 20" fill="none">
                 <path d="M7.97508 4.94165L2.91675 9.99998L7.97508 15.0583" stroke="currentColor" strokeWidth="1.5"
-                      strokeMiterlimit="10" strokeLinecap="round" stroke-linejoin="round"/>
+                      strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M17.0834 10H3.05835" stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10"
-                      strokeLinecap="round" stroke-linejoin="round"/>
+                      strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.info} viewBox="0 0 16 16" fill="none">
                 <g opacity="0.7">
@@ -246,7 +246,7 @@ export const IconProvider = () => {
             </symbol>
             <symbol id={ICON_TYPES.uncollapsedArrow} viewBox="0 0 20 21" fill="none">
                 <path d="M5 8L10 13L15 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"
-                      stroke-linejoin="round"/>
+                      strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.collapsedPlus} viewBox="0 0 16 16" fill="none">
                 <g opacity="0.4">
@@ -319,7 +319,7 @@ export const IconProvider = () => {
             <symbol id={ICON_TYPES.checkboxUnchecked} viewBox="0 0 24 24" fill="none">
                 <path
                     d="M9 2.75H15C17.426 2.75 18.9292 3.23974 19.8447 4.15527C20.7603 5.0708 21.25 6.57397 21.25 9V15C21.25 17.426 20.7603 18.9292 19.8447 19.8447C18.9292 20.7603 17.426 21.25 15 21.25H9C6.57397 21.25 5.0708 20.7603 4.15527 19.8447C3.23974 18.9292 2.75 17.426 2.75 15V9C2.75 6.57397 3.23974 5.0708 4.15527 4.15527C5.0708 3.23974 6.57397 2.75 9 2.75Z"
-                    stroke="#D1D5DB" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+                    stroke="#D1D5DB" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.checkboxChecked} viewBox="0 0 24 24" fill="none">
                 <path
@@ -343,7 +343,7 @@ export const IconProvider = () => {
             </symbol>
             <svg id={ICON_TYPES.check} viewBox="0 0 20 21" fill="none">
                 <path d="M4.16699 10.5L8.33366 14.6667L16.667 6.33337" stroke="currentColor" strokeWidth="1.5"
-                      strokeLinecap="round" stroke-linejoin="round"/>
+                      strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
             <symbol id={ICON_TYPES.retry} width="25" height="24" viewBox="0 0 25 24" fill="none">
                 <path fillRule="evenodd" clipRule="evenodd"
@@ -446,24 +446,24 @@ export const IconProvider = () => {
                 <path d="M3.0915 13.7V17.8667V13.7Z" fill="currentColor"/>
                 <path
                     d="M18.8332 10C18.8332 14.6 15.0998 18.3334 10.4998 18.3334C5.89984 18.3334 3.0915 13.7 3.0915 13.7M3.0915 13.7H6.85817M3.0915 13.7V17.8667M2.1665 10C2.1665 5.40002 5.8665 1.66669 10.4998 1.66669C16.0582 1.66669 18.8332 6.30002 18.8332 6.30002M18.8332 6.30002V2.13335M18.8332 6.30002H15.1332"
-                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.plus} viewBox="0 0 25 24" fill="none">
                 <path d="M6.5 12H18.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"
-                      stroke-linejoin="round"/>
+                      strokeLinejoin="round"/>
                 <path d="M12.5 18V6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"
-                      stroke-linejoin="round"/>
+                      strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.infinite} viewBox="0 0 21 20" fill="none">
                 <path
                     d="M8.98321 7.7667C8.29987 6.82504 7.20822 6.20837 5.94989 6.20837C3.85822 6.20837 2.1582 7.90836 2.1582 10C2.1582 12.0917 3.85822 13.7917 5.94989 13.7917C7.35822 13.7917 8.66656 13.05 9.39156 11.8417L10.4999 10L11.5999 8.15835C12.3249 6.95001 13.6332 6.20837 15.0416 6.20837C17.1332 6.20837 18.8332 7.90836 18.8332 10C18.8332 12.0917 17.1332 13.7917 15.0416 13.7917C13.7916 13.7917 12.6999 13.175 12.0082 12.2334"
-                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.toast_success} viewBox="0 0 24 24" fill="none">
                 <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z"
-                      stroke="#22C55E" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                      stroke="#22C55E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#22C55E" strokeWidth="2"
-                      strokeLinecap="round" stroke-linejoin="round"/>
+                      strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.plane} viewBox="0 0 29 28" fill="none">
                 <path
@@ -471,39 +471,39 @@ export const IconProvider = () => {
                     fill="white"/>
             </symbol>
             <symbol id={ICON_TYPES.toast_warning} viewBox="0 0 24 24" fill="none">
-                <path d="M12 9V14" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                <path d="M12 9V14" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path
                     d="M11.9999 21.4098H5.93993C2.46993 21.4098 1.01993 18.9298 2.69993 15.8998L5.81993 10.2798L8.75993 4.99979C10.5399 1.78979 13.4599 1.78979 15.2399 4.99979L18.1799 10.2898L21.2999 15.9098C22.9799 18.9398 21.5199 21.4198 18.0599 21.4198H11.9999V21.4098Z"
-                    stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                    stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M11.9946 17H12.0036" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round"
-                      stroke-linejoin="round"/>
+                      strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.toast_error} viewBox="0 0 24 24" fill="none">
                 <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z"
-                      stroke="#F87171" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
-                <path d="M12 8V13" stroke="#F87171" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                      stroke="#F87171" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M12 8V13" stroke="#F87171" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M11.9946 16H12.0036" stroke="#F87171" strokeWidth="2" strokeLinecap="round"
-                      stroke-linejoin="round"/>
+                      strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.toast_info} viewBox="0 0 24 24" fill="none">
                 <path
                     d="M9.08691 9.52871C9.08687 9.06564 9.19701 8.60921 9.40824 8.19713C9.61948 7.78505 9.92573 7.42915 10.3017 7.15884C10.6777 6.88853 11.1126 6.71156 11.5705 6.64256C12.0284 6.57357 12.4961 6.61452 12.9351 6.76204C13.374 6.90956 13.7715 7.15941 14.0948 7.49095C14.4181 7.82248 14.6579 8.22619 14.7943 8.66871C14.9307 9.11122 14.9598 9.57985 14.8793 10.0359C14.7988 10.4919 14.6109 10.9222 14.3312 11.2912C14.2224 11.4119 14.1069 11.5263 13.9852 11.634C13.8857 11.7183 13.8371 11.7529 13.7397 11.8189L12.6811 12.5488C12.4194 12.7288 12.2055 12.9699 12.0578 13.2512C11.9101 13.5325 11.8331 13.8455 11.8334 14.1631"
-                    stroke="#007AFF" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                    stroke="#007AFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path
                     d="M11.8191 18.2126C12.4163 18.2126 12.9004 17.7285 12.9004 17.1313C12.9004 16.5342 12.4163 16.05 11.8191 16.05C11.2219 16.05 10.7378 16.5342 10.7378 17.1313C10.7378 17.7285 11.2219 18.2126 11.8191 18.2126Z"
                     fill="#007AFF"/>
                 <path
                     d="M12.0059 22.0079C17.5299 22.0079 22.0079 17.5299 22.0079 12.0059C22.0079 6.48195 17.5299 2.00391 12.0059 2.00391C6.48195 2.00391 2.00391 6.48195 2.00391 12.0059C2.00391 17.5299 6.48195 22.0079 12.0059 22.0079Z"
-                    stroke="#007AFF" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                    stroke="#007AFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.blocked} viewBox="0 0 24 24" fill="none">
                 <path d="M6 10V8C6 4.69 7 2 12 2C17 2 18 4.69 18 8V10" stroke="#F87171" strokeWidth="2"
-                      strokeLinecap="round" stroke-linejoin="round"/>
+                      strokeLinecap="round" strokeLinejoin="round"/>
                 <path
                     d="M12 18.5C13.3807 18.5 14.5 17.3807 14.5 16C14.5 14.6193 13.3807 13.5 12 13.5C10.6193 13.5 9.5 14.6193 9.5 16C9.5 17.3807 10.6193 18.5 12 18.5Z"
-                    stroke="#F87171" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                    stroke="#F87171" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M17 22H7C3 22 2 21 2 17V15C2 11 3 10 7 10H17C21 10 22 11 22 15V17C22 21 21 22 17 22Z"
-                      stroke="#F87171" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                      stroke="#F87171" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.car} viewBox="0 0 20 20" fill="none">
                 <path
@@ -530,9 +530,9 @@ export const IconProvider = () => {
             </symbol>
             <symbol id={ICON_TYPES.arrowDown} viewBox="0 0 20 20" fill="none">
                 <path d="M4.94165 12.025L9.99998 17.0834L15.0583 12.025" stroke="currentColor" strokeWidth="2"
-                      strokeMiterlimit="10" strokeLinecap="round" stroke-linejoin="round"/>
+                      strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M10 2.91665L10 16.9417" stroke="currentColor" strokeWidth="2" strokeMiterlimit="10"
-                      strokeLinecap="round" stroke-linejoin="round"/>
+                      strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.money} viewBox="0 0 18 15" fill="none">
                 <path
@@ -642,7 +642,7 @@ export const IconProvider = () => {
                     fill="currentColor"/>
                 <path d="M16.6667 3.33337H12.6667M16.6667 3.33337V7.33337V3.33337Z" stroke="currentColor"
                       strokeWidth="1.5"
-                      strokeLinecap="round" stroke-linejoin="round"/>
+                      strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.unlimited_calls_filled} viewBox="0 0 20 20" fill="none">
                 <path
@@ -650,7 +650,7 @@ export const IconProvider = () => {
                     fill="currentColor"/>
                 <path d="M13.5 6.5H17.5M13.5 6.5V2.5V6.5Z" stroke="currentColor" strokeWidth="1.5"
                       strokeLinecap="round"
-                      stroke-linejoin="round"/>
+                      strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.document} viewBox="0 0 20 20" fill="none">
                 <path
@@ -664,9 +664,9 @@ export const IconProvider = () => {
                 <path
                     d="M5.94165 15.2584H12.6083C14.9083 15.2584 16.775 13.3917 16.775 11.0917C16.775 8.79172 14.9083 6.92505 12.6083 6.92505H3.44165"
                     stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round"
-                    stroke-linejoin="round"/>
+                    strokeLinejoin="round"/>
                 <path d="M5.35831 9.00837L3.22498 6.87503L5.35831 4.7417" stroke="currentColor" strokeWidth="1.5"
-                      strokeLinecap="round" stroke-linejoin="round"/>
+                      strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.sun} viewBox="0 0 20 20" fill="none">
                 <path
