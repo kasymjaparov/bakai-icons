@@ -70,6 +70,8 @@ export declare const ICON_TYPES: {
     readonly sun: "sun";
     readonly stars: "stars";
     readonly camera: "camera";
+    readonly passport_front: "passport_front";
+    readonly passport_back: "passport_back";
     readonly user_check: "user_check";
 };
 export type TIconType = keyof typeof ICON_TYPES;

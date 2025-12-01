@@ -5,10 +5,10 @@ export const IconProvider = () => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" style={{display: "none"}}>
             <symbol id={ICON_TYPES.arrowLeft} viewBox="0 0 20 20" fill="none">
-                <path d="M7.97508 4.94165L2.91675 9.99998L7.97508 15.0583" stroke="currentColor" stroke-width="1.5"
-                      stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M17.0834 10H3.05835" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
-                      stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7.97508 4.94165L2.91675 9.99998L7.97508 15.0583" stroke="currentColor" strokeWidth="1.5"
+                      strokeMiterlimit="10" strokeLinecap="round" stroke-linejoin="round"/>
+                <path d="M17.0834 10H3.05835" stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10"
+                      strokeLinecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.info} viewBox="0 0 16 16" fill="none">
                 <g opacity="0.7">
@@ -245,7 +245,7 @@ export const IconProvider = () => {
                       fill="currentColor"/>
             </symbol>
             <symbol id={ICON_TYPES.uncollapsedArrow} viewBox="0 0 20 21" fill="none">
-                <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                <path d="M5 8L10 13L15 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"
                       stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.collapsedPlus} viewBox="0 0 16 16" fill="none">
@@ -319,7 +319,7 @@ export const IconProvider = () => {
             <symbol id={ICON_TYPES.checkboxUnchecked} viewBox="0 0 24 24" fill="none">
                 <path
                     d="M9 2.75H15C17.426 2.75 18.9292 3.23974 19.8447 4.15527C20.7603 5.0708 21.25 6.57397 21.25 9V15C21.25 17.426 20.7603 18.9292 19.8447 19.8447C18.9292 20.7603 17.426 21.25 15 21.25H9C6.57397 21.25 5.0708 20.7603 4.15527 19.8447C3.23974 18.9292 2.75 17.426 2.75 15V9C2.75 6.57397 3.23974 5.0708 4.15527 4.15527C5.0708 3.23974 6.57397 2.75 9 2.75Z"
-                    stroke="#D1D5DB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    stroke="#D1D5DB" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.checkboxChecked} viewBox="0 0 24 24" fill="none">
                 <path
@@ -342,8 +342,8 @@ export const IconProvider = () => {
                     stroke="white" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
             </symbol>
             <svg id={ICON_TYPES.check} viewBox="0 0 20 21" fill="none">
-                <path d="M4.16699 10.5L8.33366 14.6667L16.667 6.33337" stroke="currentColor" stroke-width="1.5"
-                      stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4.16699 10.5L8.33366 14.6667L16.667 6.33337" stroke="currentColor" strokeWidth="1.5"
+                      strokeLinecap="round" stroke-linejoin="round"/>
             </svg>
             <symbol id={ICON_TYPES.retry} width="25" height="24" viewBox="0 0 25 24" fill="none">
                 <path fillRule="evenodd" clipRule="evenodd"
@@ -446,24 +446,24 @@ export const IconProvider = () => {
                 <path d="M3.0915 13.7V17.8667V13.7Z" fill="currentColor"/>
                 <path
                     d="M18.8332 10C18.8332 14.6 15.0998 18.3334 10.4998 18.3334C5.89984 18.3334 3.0915 13.7 3.0915 13.7M3.0915 13.7H6.85817M3.0915 13.7V17.8667M2.1665 10C2.1665 5.40002 5.8665 1.66669 10.4998 1.66669C16.0582 1.66669 18.8332 6.30002 18.8332 6.30002M18.8332 6.30002V2.13335M18.8332 6.30002H15.1332"
-                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.plus} viewBox="0 0 25 24" fill="none">
-                <path d="M6.5 12H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                <path d="M6.5 12H18.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"
                       stroke-linejoin="round"/>
-                <path d="M12.5 18V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                <path d="M12.5 18V6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"
                       stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.infinite} viewBox="0 0 21 20" fill="none">
                 <path
                     d="M8.98321 7.7667C8.29987 6.82504 7.20822 6.20837 5.94989 6.20837C3.85822 6.20837 2.1582 7.90836 2.1582 10C2.1582 12.0917 3.85822 13.7917 5.94989 13.7917C7.35822 13.7917 8.66656 13.05 9.39156 11.8417L10.4999 10L11.5999 8.15835C12.3249 6.95001 13.6332 6.20837 15.0416 6.20837C17.1332 6.20837 18.8332 7.90836 18.8332 10C18.8332 12.0917 17.1332 13.7917 15.0416 13.7917C13.7916 13.7917 12.6999 13.175 12.0082 12.2334"
-                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.toast_success} viewBox="0 0 24 24" fill="none">
                 <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z"
-                      stroke="#22C55E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#22C55E" stroke-width="2"
-                      stroke-linecap="round" stroke-linejoin="round"/>
+                      stroke="#22C55E" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                <path d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#22C55E" strokeWidth="2"
+                      strokeLinecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.plane} viewBox="0 0 29 28" fill="none">
                 <path
@@ -471,39 +471,39 @@ export const IconProvider = () => {
                     fill="white"/>
             </symbol>
             <symbol id={ICON_TYPES.toast_warning} viewBox="0 0 24 24" fill="none">
-                <path d="M12 9V14" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 9V14" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
                 <path
                     d="M11.9999 21.4098H5.93993C2.46993 21.4098 1.01993 18.9298 2.69993 15.8998L5.81993 10.2798L8.75993 4.99979C10.5399 1.78979 13.4599 1.78979 15.2399 4.99979L18.1799 10.2898L21.2999 15.9098C22.9799 18.9398 21.5199 21.4198 18.0599 21.4198H11.9999V21.4098Z"
-                    stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M11.9946 17H12.0036" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"
+                    stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                <path d="M11.9946 17H12.0036" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round"
                       stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.toast_error} viewBox="0 0 24 24" fill="none">
                 <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z"
-                      stroke="#F87171" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M12 8V13" stroke="#F87171" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M11.9946 16H12.0036" stroke="#F87171" stroke-width="2" stroke-linecap="round"
+                      stroke="#F87171" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                <path d="M12 8V13" stroke="#F87171" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
+                <path d="M11.9946 16H12.0036" stroke="#F87171" strokeWidth="2" strokeLinecap="round"
                       stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.toast_info} viewBox="0 0 24 24" fill="none">
                 <path
                     d="M9.08691 9.52871C9.08687 9.06564 9.19701 8.60921 9.40824 8.19713C9.61948 7.78505 9.92573 7.42915 10.3017 7.15884C10.6777 6.88853 11.1126 6.71156 11.5705 6.64256C12.0284 6.57357 12.4961 6.61452 12.9351 6.76204C13.374 6.90956 13.7715 7.15941 14.0948 7.49095C14.4181 7.82248 14.6579 8.22619 14.7943 8.66871C14.9307 9.11122 14.9598 9.57985 14.8793 10.0359C14.7988 10.4919 14.6109 10.9222 14.3312 11.2912C14.2224 11.4119 14.1069 11.5263 13.9852 11.634C13.8857 11.7183 13.8371 11.7529 13.7397 11.8189L12.6811 12.5488C12.4194 12.7288 12.2055 12.9699 12.0578 13.2512C11.9101 13.5325 11.8331 13.8455 11.8334 14.1631"
-                    stroke="#007AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    stroke="#007AFF" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
                 <path
                     d="M11.8191 18.2126C12.4163 18.2126 12.9004 17.7285 12.9004 17.1313C12.9004 16.5342 12.4163 16.05 11.8191 16.05C11.2219 16.05 10.7378 16.5342 10.7378 17.1313C10.7378 17.7285 11.2219 18.2126 11.8191 18.2126Z"
                     fill="#007AFF"/>
                 <path
                     d="M12.0059 22.0079C17.5299 22.0079 22.0079 17.5299 22.0079 12.0059C22.0079 6.48195 17.5299 2.00391 12.0059 2.00391C6.48195 2.00391 2.00391 6.48195 2.00391 12.0059C2.00391 17.5299 6.48195 22.0079 12.0059 22.0079Z"
-                    stroke="#007AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    stroke="#007AFF" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.blocked} viewBox="0 0 24 24" fill="none">
-                <path d="M6 10V8C6 4.69 7 2 12 2C17 2 18 4.69 18 8V10" stroke="#F87171" stroke-width="2"
-                      stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 10V8C6 4.69 7 2 12 2C17 2 18 4.69 18 8V10" stroke="#F87171" strokeWidth="2"
+                      strokeLinecap="round" stroke-linejoin="round"/>
                 <path
                     d="M12 18.5C13.3807 18.5 14.5 17.3807 14.5 16C14.5 14.6193 13.3807 13.5 12 13.5C10.6193 13.5 9.5 14.6193 9.5 16C9.5 17.3807 10.6193 18.5 12 18.5Z"
-                    stroke="#F87171" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    stroke="#F87171" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
                 <path d="M17 22H7C3 22 2 21 2 17V15C2 11 3 10 7 10H17C21 10 22 11 22 15V17C22 21 21 22 17 22Z"
-                      stroke="#F87171" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      stroke="#F87171" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.car} viewBox="0 0 20 20" fill="none">
                 <path
@@ -529,10 +529,10 @@ export const IconProvider = () => {
                     fill="#F59E0B"/>
             </symbol>
             <symbol id={ICON_TYPES.arrowDown} viewBox="0 0 20 20" fill="none">
-                <path d="M4.94165 12.025L9.99998 17.0834L15.0583 12.025" stroke="currentColor" stroke-width="2"
-                      stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M10 2.91665L10 16.9417" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"
-                      stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4.94165 12.025L9.99998 17.0834L15.0583 12.025" stroke="currentColor" strokeWidth="2"
+                      strokeMiterlimit="10" strokeLinecap="round" stroke-linejoin="round"/>
+                <path d="M10 2.91665L10 16.9417" stroke="currentColor" strokeWidth="2" strokeMiterlimit="10"
+                      strokeLinecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.money} viewBox="0 0 18 15" fill="none">
                 <path
@@ -641,15 +641,15 @@ export const IconProvider = () => {
                     d="M18.3084 15.275C18.3084 15.575 18.2417 15.8833 18.1001 16.1833C17.9584 16.4833 17.7751 16.7666 17.5334 17.0333C17.1251 17.4833 16.6751 17.8083 16.1667 18.0166C15.6667 18.225 15.1251 18.3333 14.5417 18.3333C13.6917 18.3333 12.7834 18.1333 11.8251 17.725C10.8667 17.3166 9.90841 16.7666 8.95842 16.075C8.00008 15.375 7.09175 14.6 6.22508 13.7416C5.36675 12.875 4.59175 11.9666 3.90008 11.0166C3.21675 10.0666 2.66675 9.11663 2.26675 8.17496C1.86675 7.22496 1.66675 6.31663 1.66675 5.44996C1.66675 4.88329 1.76675 4.34163 1.96675 3.84163C2.16675 3.33329 2.48341 2.86663 2.92508 2.44996C3.45841 1.92496 4.04175 1.66663 4.65842 1.66663C4.89175 1.66663 5.12508 1.71663 5.33342 1.81663C5.55008 1.91663 5.74175 2.06663 5.89175 2.28329L7.82508 5.00829C7.97508 5.21663 8.08342 5.40829 8.15841 5.59163C8.23342 5.76663 8.27508 5.94163 8.27508 6.09996C8.27508 6.29996 8.21675 6.49996 8.10008 6.69163C7.99175 6.88329 7.83342 7.08329 7.63341 7.28329L7.00008 7.94163C6.90841 8.03329 6.86675 8.14163 6.86675 8.27496C6.86675 8.34163 6.87508 8.39996 6.89175 8.46663C6.91675 8.53329 6.94175 8.58329 6.95842 8.63329C7.10842 8.90829 7.36675 9.26663 7.73341 9.69996C8.10841 10.1333 8.50841 10.575 8.94175 11.0166C9.39175 11.4583 9.82508 11.8666 10.2667 12.2416C10.7001 12.6083 11.0584 12.8583 11.3417 13.0083C11.3834 13.025 11.4334 13.05 11.4917 13.075C11.5584 13.1 11.6251 13.1083 11.7001 13.1083C11.8417 13.1083 11.9501 13.0583 12.0417 12.9666L12.6751 12.3416C12.8834 12.1333 13.0834 11.975 13.2751 11.875C13.4667 11.7583 13.6584 11.7 13.8667 11.7C14.0251 11.7 14.1917 11.7333 14.3751 11.8083C14.5584 11.8833 14.7501 11.9916 14.9584 12.1333L17.7167 14.0916C17.9334 14.2416 18.0834 14.4166 18.1751 14.625C18.2584 14.8333 18.3084 15.0416 18.3084 15.275Z"
                     fill="currentColor"/>
                 <path d="M16.6667 3.33337H12.6667M16.6667 3.33337V7.33337V3.33337Z" stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-linecap="round" stroke-linejoin="round"/>
+                      strokeWidth="1.5"
+                      strokeLinecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.unlimited_calls_filled} viewBox="0 0 20 20" fill="none">
                 <path
                     d="M18.3084 15.2751C18.3084 15.5751 18.2417 15.8834 18.1001 16.1834C17.9584 16.4834 17.7751 16.7667 17.5334 17.0334C17.1251 17.4834 16.6751 17.8084 16.1667 18.0168C15.6667 18.2251 15.1251 18.3334 14.5417 18.3334C13.6917 18.3334 12.7834 18.1334 11.8251 17.7251C10.8667 17.3167 9.90841 16.7667 8.95842 16.0751C8.00008 15.3751 7.09175 14.6001 6.22508 13.7417C5.36675 12.8751 4.59175 11.9667 3.90008 11.0167C3.21675 10.0667 2.66675 9.11675 2.26675 8.17508C1.86675 7.22508 1.66675 6.31675 1.66675 5.45008C1.66675 4.88341 1.76675 4.34175 1.96675 3.84175C2.16675 3.33341 2.48341 2.86675 2.92508 2.45008C3.45841 1.92508 4.04175 1.66675 4.65842 1.66675C4.89175 1.66675 5.12508 1.71675 5.33342 1.81675C5.55008 1.91675 5.74175 2.06675 5.89175 2.28341L7.82508 5.00841C7.97508 5.21675 8.08342 5.40841 8.15841 5.59175C8.23342 5.76675 8.27508 5.94175 8.27508 6.10008C8.27508 6.30008 8.21675 6.50008 8.10008 6.69175C7.99175 6.88341 7.83342 7.08341 7.63341 7.28341L7.00008 7.94175C6.90841 8.03341 6.86675 8.14175 6.86675 8.27508C6.86675 8.34175 6.87508 8.40008 6.89175 8.46675C6.91675 8.53341 6.94175 8.58341 6.95842 8.63341C7.10842 8.90841 7.36675 9.26675 7.73341 9.70008C8.10841 10.1334 8.50841 10.5751 8.94175 11.0167C9.39175 11.4584 9.82508 11.8667 10.2667 12.2417C10.7001 12.6084 11.0584 12.8584 11.3417 13.0084C11.3834 13.0251 11.4334 13.0501 11.4917 13.0751C11.5584 13.1001 11.6251 13.1084 11.7001 13.1084C11.8417 13.1084 11.9501 13.0584 12.0417 12.9667L12.6751 12.3417C12.8834 12.1334 13.0834 11.9751 13.2751 11.8751C13.4667 11.7584 13.6584 11.7001 13.8667 11.7001C14.0251 11.7001 14.1917 11.7334 14.3751 11.8084C14.5584 11.8834 14.7501 11.9917 14.9584 12.1334L17.7167 14.0917C17.9334 14.2417 18.0834 14.4167 18.1751 14.6251C18.2584 14.8334 18.3084 15.0417 18.3084 15.2751Z"
                     fill="currentColor"/>
-                <path d="M13.5 6.5H17.5M13.5 6.5V2.5V6.5Z" stroke="currentColor" stroke-width="1.5"
-                      stroke-linecap="round"
+                <path d="M13.5 6.5H17.5M13.5 6.5V2.5V6.5Z" stroke="currentColor" strokeWidth="1.5"
+                      strokeLinecap="round"
                       stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.document} viewBox="0 0 20 20" fill="none">
@@ -663,10 +663,10 @@ export const IconProvider = () => {
             <symbol id={ICON_TYPES.rollback} viewBox="0 0 20 20" fill="none">
                 <path
                     d="M5.94165 15.2584H12.6083C14.9083 15.2584 16.775 13.3917 16.775 11.0917C16.775 8.79172 14.9083 6.92505 12.6083 6.92505H3.44165"
-                    stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                    stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round"
                     stroke-linejoin="round"/>
-                <path d="M5.35831 9.00837L3.22498 6.87503L5.35831 4.7417" stroke="currentColor" stroke-width="1.5"
-                      stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5.35831 9.00837L3.22498 6.87503L5.35831 4.7417" stroke="currentColor" strokeWidth="1.5"
+                      strokeLinecap="round" stroke-linejoin="round"/>
             </symbol>
             <symbol id={ICON_TYPES.sun} viewBox="0 0 20 20" fill="none">
                 <path
@@ -677,7 +677,7 @@ export const IconProvider = () => {
                     fill="currentColor"/>
             </symbol>
             <symbol id={ICON_TYPES.stars} viewBox="0 0 18 17" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd"
+                <path fillRule="evenodd" clipRule="evenodd"
                       d="M4.72721 4.72666C4.55119 4.90275 4.42822 5.12478 4.37233 5.36742L3.91018 7.36541C3.90304 7.40308 3.88297 7.43707 3.85345 7.46152C3.82392 7.48598 3.78678 7.49936 3.74845 7.49936C3.71011 7.49936 3.67297 7.48598 3.64345 7.46152C3.61392 7.43707 3.59386 7.40308 3.58671 7.36541L3.1258 5.36742C3.07011 5.12465 2.94734 4.90241 2.77147 4.72604C2.59561 4.54966 2.37373 4.42625 2.13112 4.36986L0.133954 3.90894C0.0962867 3.9018 0.0622917 3.88174 0.0378371 3.85221C0.0133825 3.82269 0 3.78555 0 3.74721C0 3.70887 0.0133825 3.67174 0.0378371 3.64221C0.0622917 3.61269 0.0962867 3.59262 0.133954 3.58548L2.1303 3.12456C2.37288 3.06865 2.59485 2.94566 2.77087 2.76964C2.9469 2.59361 3.06988 2.37164 3.1258 2.12906L3.58754 0.133953C3.59468 0.0962852 3.61474 0.0622917 3.64427 0.0378371C3.6738 0.0133825 3.71093 0 3.74927 0C3.78761 0 3.82474 0.0133825 3.85427 0.0378371C3.8838 0.0622917 3.90386 0.0962852 3.911 0.133953L4.37192 2.13071C4.42801 2.3732 4.55106 2.59508 4.72705 2.77107C4.90305 2.94707 5.12492 3.07012 5.36742 3.12621L7.36582 3.58712C7.40349 3.59427 7.43748 3.61433 7.46194 3.64386C7.48639 3.67338 7.49977 3.71052 7.49977 3.74886C7.49977 3.7872 7.48639 3.82433 7.46194 3.85386C7.43748 3.88338 7.40349 3.90345 7.36582 3.91059L5.36783 4.37151C5.12522 4.4275 4.90324 4.55056 4.72721 4.72666ZM12.2879 12.2798C12.381 11.8754 12.586 11.5053 12.8794 11.2118C13.1728 10.9183 13.5428 10.7132 13.9472 10.6198L17.2774 9.85158C17.3402 9.83968 17.3969 9.80623 17.4376 9.75702C17.4784 9.7078 17.5007 9.64591 17.5007 9.582C17.5007 9.5181 17.4784 9.4562 17.4376 9.40699C17.3969 9.35777 17.3402 9.32433 17.2774 9.31242L13.9465 8.54417C13.5423 8.45067 13.1725 8.24557 12.8791 7.95222C12.5858 7.65887 12.3807 7.28905 12.2872 6.88486L11.5189 3.55665C11.507 3.49386 11.4736 3.4372 11.4244 3.39644C11.3751 3.35568 11.3132 3.33337 11.2493 3.33337C11.1854 3.33337 11.1235 3.35568 11.0743 3.39644C11.0251 3.4372 10.9917 3.49386 10.9798 3.55665L10.2101 6.88212C10.1169 7.28645 9.91193 7.65643 9.61853 7.94983C9.32513 8.24323 8.95515 8.44823 8.55082 8.54142L5.2233 9.30968C5.16051 9.32159 5.10385 9.35503 5.06309 9.40424C5.02233 9.45346 5.00002 9.51536 5.00002 9.57926C5.00002 9.64316 5.02233 9.70506 5.06309 9.75427C5.10385 9.80349 5.16051 9.83693 5.2233 9.84884L8.55219 10.6171C8.95657 10.7111 9.3264 10.9168 9.61954 11.2108C9.91267 11.5048 10.1173 11.8752 10.2101 12.2798L10.9784 15.6101C10.9903 15.6729 11.0237 15.7295 11.0729 15.7703C11.1222 15.8111 11.1841 15.8334 11.248 15.8334C11.3119 15.8334 11.3738 15.8111 11.423 15.7703C11.4722 15.7295 11.5056 15.6729 11.5175 15.6101L12.2879 12.2798ZM5.76263 15.4822C5.79368 15.3474 5.86201 15.224 5.95981 15.1262C6.05761 15.0283 6.18094 14.96 6.31573 14.9289L7.42582 14.6728C7.44675 14.6688 7.46564 14.6577 7.47923 14.6413C7.49281 14.6249 7.50025 14.6042 7.50025 14.5829C7.50025 14.5616 7.49281 14.541 7.47923 14.5246C7.46564 14.5082 7.44675 14.497 7.42582 14.4931L6.31551 14.237C6.18078 14.2058 6.0575 14.1374 5.95972 14.0397C5.86194 13.9419 5.79357 13.8186 5.7624 13.6839L5.50632 12.5745C5.50235 12.5535 5.4912 12.5346 5.4748 12.5211C5.45839 12.5075 5.43776 12.5 5.41646 12.5C5.39516 12.5 5.37453 12.5075 5.35812 12.5211C5.34172 12.5346 5.33057 12.5535 5.3266 12.5745L5.07006 13.683C5.03899 13.8177 4.97066 13.9411 4.87286 14.0389C4.77506 14.1367 4.65173 14.205 4.51695 14.2361L3.40778 14.4921C3.38685 14.4961 3.36796 14.5073 3.35438 14.5237C3.34079 14.5401 3.33335 14.5607 3.33335 14.582C3.33335 14.6033 3.34079 14.6239 3.35438 14.6403C3.36796 14.6567 3.38685 14.6679 3.40778 14.6719L4.51741 14.9279C4.6522 14.9593 4.77548 15.0278 4.87319 15.1258C4.9709 15.2238 5.03912 15.3473 5.07006 15.4822L5.32614 16.5923C5.33011 16.6132 5.34126 16.6321 5.35766 16.6457C5.37407 16.6593 5.3947 16.6667 5.416 16.6667C5.4373 16.6667 5.45794 16.6593 5.47434 16.6457C5.49075 16.6321 5.50189 16.6132 5.50586 16.5923L5.76263 15.4822Z"
                       fill="currentColor"/>
             </symbol>
