@@ -73,5 +73,6 @@ export const ICON_TYPES = {
     passport_front: "passport_front",
     passport_back: "passport_back",
     user_check: "user_check",
+    copy: "copy"
 } as const
 export type TIconType = keyof typeof ICON_TYPES;
